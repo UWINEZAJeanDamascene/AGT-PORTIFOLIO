@@ -2,7 +2,7 @@
 const AboutUs = () => {
   return (
     <div className='h-auto w-full align-baseline  '>
-      <div className="  w-full  flex justify-center max-sm:flex-col  items-center gap-4 h-auto overflow-hidden pb-4 bg-[#C0C0C0]">
+      <div className="  w-full  flex justify-center max-sm:flex-col column items-center gap-4 h-auto overflow-hidden pb-4 bg-[#C0C0C0]">
         <div className='w-1/3 shadow-md p-4 mt-3  max-sm:w-full max-sm:pl-14 pb-4'>
         <h1 className='text-[#c94cb4] text-xl p-2 font-serif '>About_us</h1>
         <p>We are Edge_reach Tech</p>
@@ -16,7 +16,7 @@ const AboutUs = () => {
           <p>Our vision at EdgeReach Tech is to become the premier destination for solving real-life
           challenges and providing top-tier talent in the IT and digital sphere.</p>
         </div>
-        <div className='w-1/2 h-1/2 max-sm:w-full max-sm:pl-14 max-sm:pr-6 shadow'>
+        <div className='w-1/2 h-1/2 max-sm:w-full max-sm:pl-14 max-sm:pr-6 shadow '>
           <img src={edge} alt="" className=' rounded-sm' />
         </div>
       </div>
