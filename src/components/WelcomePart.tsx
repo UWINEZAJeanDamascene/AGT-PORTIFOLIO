@@ -14,7 +14,7 @@ const WelcomePart = () => {
        text-white h-full bg-black bg-opacity-50  font-serif text-lg 
         ">
         <h1  className="animate-wiggle text-white font-bold ">Welcome to Edge_reach Tech.</h1>
-        <h2>We provide excelent quality services for your business.</h2>
+        <h2 className='md:hidden max-sm:hidden'>We provide excelent quality services for your business.</h2>
       </div>
     </div>
   );

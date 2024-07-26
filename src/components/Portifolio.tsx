@@ -8,8 +8,8 @@ const Portifolio = () => {
     <div className="bg-[#C0C0C0]">
       <h1 className="pl-28 relative pt-5 uppercase text-xl">Our Portifolio</h1>
       <p className="pl-28 pt-2">RECENT WORK</p>
-      <div className="relative flex gap-10 justify-center items-center h-auto pt-4 pb-4 flex-wrap">
-        <div className="w-80 shadow-xl p-3 rounded-md bg-[#008080]">
+      <div className=" flex gap-10 justify-center items-center  h-auto py-4 pb-4 column ">
+        <div className="w-80 max-sm:w-screen shadow-xl p-3 column rounded-md bg-[#008080]">
           <img src={ecommerce} alt="ecommerce logo" />
           <h2 className="text-[#c94cb4]">E-commerce</h2>
           <h3 className="text-[#8f878e]">Key Features:</h3>
@@ -33,7 +33,7 @@ const Portifolio = () => {
     </div>
         </div>
 
-        <div className="w-80 shadow-xl p-3 rounded-md bg-[#008080]">
+        <div className="w-80 shadow-xl p-3 rounded-md max-sm:w-screen column bg-[#008080]">
           <img src={platform} alt="ecommerce logo" />
           <h2 className="text-[#c94cb4]">Social Media Platform</h2>
           <h3 className="text-[#8f878e]">Key Features:</h3>
@@ -57,7 +57,7 @@ const Portifolio = () => {
     </div>
         </div>
 
-        <div className="w-80 shadow-xl p-3 rounded-md bg-[#008080]">
+        <div className="w-80 shadow-xl p-3 rounded-md max-sm:w-screen column bg-[#008080]">
           <img src={learning} alt="learning logo" />
           <h2 className="text-[#c94cb4]">Online Learning Platform</h2>
           <h3 className="text-[#8f878e]">Key Features:</h3>

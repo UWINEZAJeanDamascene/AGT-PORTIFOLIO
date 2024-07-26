@@ -31,3 +31,42 @@
 .text-item {
   @apply h-10 flex items-center;
 }
+/* .marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: marquee 5s linear infinite;
+}
+
+@keyframes marquee {
+  40% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+} */
+ @media screen and (max-width:320px) {
+   .column{
+    flex-direction: column;
+   }
+   .widthh{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+    margin: 0 auto;
+    gap: 10;
+   }
+ }
+ @media screen and (max-width:861px) {
+  .column{
+   flex-direction: column;
+   flex-wrap: nowrap;
+   width: 90%;
+
+  }
+  
+  .widthh{
+   flex-direction: column;
+  width: 100%;
+  }
+}

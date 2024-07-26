@@ -11,8 +11,8 @@ const Services = () => {
         <h2 className='uppercase text-2xl'>Services</h2>
         <p>Here are some services we offer:</p>
         </div>
-        <div className='flex justify-center gap-10 mb-3 items-center pt-2 flex-wrap '>
-          <div className='w-80 shadow ml-4 p-2 rounded-md bg-[#008080] '>
+        <div className='flex justify-center gap-5  mb-3 items-center pt-2 column widthh flex-wrap '>
+          <div className='w-80 column shadow ml-4 p-2 rounded-md bg-[#008080] '>
             <img src={webdev} alt="web-logo" />
            <span className='text-[#c94cb4]'> Web Development</span>
            <h1>Key Features: <span> User authentication, data management, API integration, and real-time functionalities.</span></h1>
@@ -29,7 +29,7 @@ const Services = () => {
     </div>
             </div> 
 
-            <div className='w-80 shadow ml-4 p-2 rounded-md bg-[#008080]'>
+            <div className='w-80 shadow ml-4 p-2 column rounded-md bg-[#008080]'>
             <img src={design} alt="design-logo" />
            <span className='text-[#c94cb4]'> UI/UX Design</span>
            <h1>Key Features: <span>User Research and Analysis, Information Architecture,Interaction Design,Usability Testing and Iteration,User-Centered Design.</span></h1>
@@ -45,7 +45,7 @@ const Services = () => {
       </button>
     </div>
             </div> 
-            <div className='w-80 shadow ml-4 p-2 rounded-md bg-[#008080]'>
+            <div className='w-80 shadow ml-4 p-2 column rounded-md bg-[#008080]'>
             <img src={databasee} alt="database-logo" />
            <span className='text-[#c94cb4]'> Database Management</span>
            <h1>Key Features: <span>Data Abstraction, Data Security and Integrity, Data Backup and Recovery,Data Modeling and Normalization,etc.</span></h1>
