@@ -1,6 +1,6 @@
+import { IconProp } from '@fortawesome/fontawesome-svg-core';
 import { faDiscord, faFacebook, faGithub, faInstagram, faSlack, faXTwitter } from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon, IconLookup } from '@fortawesome/react-fontawesome';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Footer = () => {
   return (
     <div >
@@ -50,12 +50,12 @@ const Footer = () => {
         <div className='w-1/2'>
         <h1 className='text-slate-50 my-3'>Follow&Contact Us</h1>
         <div className="flex max-sm:justify-center max-sm:items-center space-x-4 text-red-400 max-sm:w-full">
-        <a href=""><span><FontAwesomeIcon icon={faXTwitter as IconLookup} size="2x" /></span>Twitter</a>
-        <a href=""><span><FontAwesomeIcon icon={faInstagram as IconLookup} size="2x" /></span>Instagram</a>
-        <a href=""><span><FontAwesomeIcon icon={faFacebook as IconLookup} size="2x" /></span>Facebook</a>
-        <a href=""><span><FontAwesomeIcon icon={faGithub as IconLookup} size="2x" /></span>Github</a>
-        <a href=""><span> <FontAwesomeIcon icon={faSlack as IconLookup} size="2x" /></span>Slack</a>
-        <a href=""><span>   <FontAwesomeIcon icon={faDiscord as IconLookup} size="2x" /></span>Discord</a>
+        <a href=""><span><FontAwesomeIcon icon={faXTwitter as IconProp } size="2x" /></span>Twitter</a>
+        <a href=""><span><FontAwesomeIcon icon={faInstagram as IconProp } size="2x" /></span>Instagram</a>
+        <a href=""><span><FontAwesomeIcon icon={faFacebook as IconProp } size="2x" /></span>Facebook</a>
+        <a href=""><span><FontAwesomeIcon icon={faGithub as IconProp } size="2x" /></span>Github</a>
+        <a href=""><span> <FontAwesomeIcon icon={faSlack as IconProp } size="2x" /></span>Slack</a>
+        <a href=""><span>   <FontAwesomeIcon icon={faDiscord as IconProp } size="2x" /></span>Discord</a>
       </div>
         </div>
         </div>
