@@ -61,13 +61,13 @@ const Layout = () => {
         <p>Phone:0788987000</p>
            </div>
         
-        <div className=" marquee flex max-sm:justify-center max-sm:items-center widthh space-x-4 text-red-400 max-sm:w-full">
-        <a href=""><span><FontAwesomeIcon icon={faXTwitter as IconProp } size="2x" /></span>Twitter</a>
-        <a href=""><span><FontAwesomeIcon icon={faInstagram as IconProp } size="2x" /></span>Instagram</a>
-        <a href=""><span><FontAwesomeIcon icon={faFacebook as IconProp } size="2x" /></span>Facebook</a>
-        <a href=""><span><FontAwesomeIcon icon={faGithub as IconProp } size="2x" /></span>Github</a>
-        <a href=""><span> <FontAwesomeIcon icon={faSlack as IconProp } size="2x" /></span>Slack</a>
-        <a href=""><span>   <FontAwesomeIcon icon={faDiscord as IconProp } size="2x" /></span>Discord</a>
+        <div className=" marquee flex max-sm:justify-center max-sm:items-center gap-2  text-red-400 max-sm:w-full">
+        <a href=""><span><FontAwesomeIcon icon={faXTwitter as IconProp } size="1x" /></span>Twitter</a>
+        <a href=""><span><FontAwesomeIcon icon={faInstagram as IconProp } size="1x" /></span>Instagram</a>
+        <a href=""><span><FontAwesomeIcon icon={faFacebook as IconProp } size="1x" /></span>Facebook</a>
+        <a href=""><span><FontAwesomeIcon icon={faGithub as IconProp } size="1x" /></span>Github</a>
+        <a href=""><span> <FontAwesomeIcon icon={faSlack as IconProp } size="1x" /></span>Slack</a>
+        <a href=""><span>   <FontAwesomeIcon icon={faDiscord as IconProp } size="1x" /></span>Discord</a>
       </div>
         </div>
         </div>
