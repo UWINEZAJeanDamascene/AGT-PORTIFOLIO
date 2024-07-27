@@ -13,7 +13,7 @@ const Layout = () => {
       <div className="w-full  bg-[#123]  h-full ">
         <div className='flex justify-center items-center widthh  max-sm:flex-col gap-28'>
         <form className="bg-[#123] p-5 rounded-lg shadow-2xl mt-5 max-sm:w-full max-sm:mx-0 ml-5 w-1/2 ">
-        <h2 className="text-2xl font-semibold  ">Contact Us</h2>
+        <h2 className="text-2xl font-semibold  ">Contact Me</h2>
           <div className="mb-4">
             <label htmlFor="name" className="block text-gray-500 font-medium mb-2">Name</label>
             <input

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div >
       <div className="w-full  bg-[#123] pb-5  h-full ">
-        <div className='flex justify-center items-center widthh  max-sm:flex-col gap-28'>
+        <div className='flex justify-center items-center gap-28'>
         <form className="bg-[#C0C0C0] p-5 rounded-lg shadow-md mt-5 max-sm:w-full max-sm:mx-0 ml-5 w-1/2 ">
         <h2 className="text-2xl font-semibold  ">Contact Us</h2>
           <div className="mb-4">
@@ -50,13 +50,13 @@ const Footer = () => {
         </form>
         <div className='w-1/2'>
         <h1 className='text-slate-50 my-3'>Follow&Contact Us</h1>
-        <div className=" marquee flex max-sm:justify-center max-sm:items-center widthh space-x-4 text-red-400 max-sm:w-full">
-        <a href=""><span><FontAwesomeIcon icon={faXTwitter as IconProp } size="2x" /></span>Twitter</a>
-        <a href=""><span><FontAwesomeIcon icon={faInstagram as IconProp } size="2x" /></span>Instagram</a>
-        <a href=""><span><FontAwesomeIcon icon={faFacebook as IconProp } size="2x" /></span>Facebook</a>
-        <a href=""><span><FontAwesomeIcon icon={faGithub as IconProp } size="2x" /></span>Github</a>
-        <a href=""><span> <FontAwesomeIcon icon={faSlack as IconProp } size="2x" /></span>Slack</a>
-        <a href=""><span>   <FontAwesomeIcon icon={faDiscord as IconProp } size="2x" /></span>Discord</a>
+        <div className=" marquee   text-red-400 ">
+        <a href=""><span><FontAwesomeIcon icon={faXTwitter as IconProp } size="1x" /></span>Twitter</a>
+        <a href=""><span><FontAwesomeIcon icon={faInstagram as IconProp } size="1x" /></span>Instagram</a>
+        <a href=""><span><FontAwesomeIcon icon={faFacebook as IconProp } size="1x" /></span>Facebook</a>
+        <a href=""><span><FontAwesomeIcon icon={faGithub as IconProp } size="1x" /></span>Github</a>
+        <a href=""><span> <FontAwesomeIcon icon={faSlack as IconProp } size="1x" /></span>Slack</a>
+        <a href=""><span>   <FontAwesomeIcon icon={faDiscord as IconProp } size="1x" /></span>Discord</a>
       </div>
         </div>
         </div>

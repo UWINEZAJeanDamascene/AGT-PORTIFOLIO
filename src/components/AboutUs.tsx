@@ -4,7 +4,7 @@ const AboutUs = () => {
     <div className='h-auto w-full align-baseline  '>
       <div className="  w-full  flex justify-center max-sm:flex-col column items-center gap-4 h-auto overflow-hidden pb-4 bg-[#162b40]">
         <div className='w-1/3 shadow-md p-4 mt-3  max-sm:w-full max-sm:pl-14 pb-4'>
-        <h1 className='text-[#c94cb4] text-xl p-2 font-serif '>About_us</h1>
+        <h1 className='text-[#c94cb4] text-xl p-2 font-serif '>About_Me</h1>
         <p className='text-white'>Am web developer</p>
         <h2 className='text-[#c94cb4] text-lg p-2 font-serif'>MISSION</h2>
         <p className='text-white'>To deliver innovative, high-quality web solutions that empower businesses to succeed in the digital world. Am committed to providing exceptional user experiences, reliable performance, and cutting-edge technologies to meet the unique needs of each client.</p>
