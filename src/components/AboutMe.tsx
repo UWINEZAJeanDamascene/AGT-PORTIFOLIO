@@ -1,5 +1,5 @@
  import edge from '../images/edge.jpg'
-const AboutUs = () => {
+const AboutMe = () => {
   return (
     <div className='h-auto w-full align-baseline  '>
       <div className="  w-full  flex justify-center max-sm:flex-col column items-center gap-4 h-auto overflow-hidden pb-4 bg-[#162b40]">
@@ -21,4 +21,4 @@ const AboutUs = () => {
   )
 }
 
-export default AboutUs
+export default AboutMe
