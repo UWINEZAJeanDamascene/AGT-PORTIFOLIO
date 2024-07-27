@@ -1,35 +1,28 @@
+import { Route, Routes } from "react-router-dom";
 import AboutUs from "./components/AboutUs";
-import Footer from "./components/Footer";
+import Home from "./components/Home";
+import Layout from "./components/Layout";
 import NavBar from "./components/NavBar";
 import Portifolio from "./components/Portifolio";
 import Services from "./components/Services";
 import Skills from "./components/Skills";
-import WelcomePart from "./components/WelcomePart";
+
 function App() {
   return (
-   <div className="bg-[#C0C0C0]">
-    <section>
-    <NavBar/>
-    </section>
-  <section>
-    <WelcomePart/>
-  </section>
-  <section>
-    <Services/>
-  </section>
-  <section >
-    <AboutUs/>
-  </section>
-  <section>
-    <Portifolio/>
-  </section>
-  <section>
-    <Skills/>
-  </section>
-  <section>
-    <Footer/>
-  </section>
-   </div>
+  <>
+ <div className="bg-[#162b40]">
+ <NavBar/>
+ <Routes>
+    <Route path="/" element={<Layout/>}>
+  <Route path="" element={<Home/>}/>
+    <Route path="About-us" element={<AboutUs/>}/>
+    <Route path="portifolio" element={<Portifolio/>}/>
+    <Route path="services" element={<Services/>}/>
+    <Route path="skills" element={<Skills/>}/>
+    </Route>
+  </Routes>
+ </div>
+  </>
   );
 }
 

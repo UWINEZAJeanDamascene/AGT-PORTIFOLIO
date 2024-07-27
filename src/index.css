@@ -48,6 +48,7 @@
  @media screen and (max-width:320px) {
    .column{
     flex-direction: column;
+    width: 100%;
    }
    .widthh{
     flex-direction: column;
@@ -61,7 +62,6 @@
   .column{
    flex-direction: column;
    flex-wrap: nowrap;
-   width: 90%;
 
   }
   
@@ -69,4 +69,39 @@
    flex-direction: column;
   width: 100%;
   }
+}
+@media screen and (min-width:641px) {
+  .hidenn{
+    
+    display: none;
+  }
+ 
+}
+@media screen and (min-width:721px) {
+  .hidennn{
+    flex-direction: column;
+    width: 100%;
+    
+  }
+ 
+}
+.active{
+  color: #9487e0;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%); 
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0); 
+    opacity: 1;
+  }
+}
+
+.animationn{
+  animation: slideUp 1s ease-out forwards;
+  position: relative; 
+  opacity: 0;
 }

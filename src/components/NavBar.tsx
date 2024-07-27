@@ -1,103 +1,76 @@
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import lgcover from "../images/lgcover.jpg";
+import { useState } from "react";
+import { NavLink } from "react-router-dom";
+
 const NavBar = () => {
+  const [showMenu, setMenu] = useState(false);
   return (
-    <div className="bg-[#123] box-border  ">
-      <div className=" w-full  flex justify-between items-center ">
-        <div className="pl-3 flex  mt-3 top-0 z-50 sticky">
-          <img
-            src={lgcover}
-            alt="Company-logo"
-            className="w-10 h-10 rounded-full max-sm:hidden"
-          />
-          <div className="text-gray-300 max-sm:hidden">
-            <h1>EDGE_REACH TECH</h1>
-            <p className=" pb-3 lowercase">
-              EXTEND YOUR BOUNDARIES AND CRAFT EXCELLENCE
-            </p>
-          </div>
+    <div className="bg-[#123] box-border">
+      <div className="w-full flex justify-between items-center">
+        <div className="pl-10 flex top-0 max-sm:hidden text-gray-300 z-50 sticky">
+          <h1><NavLink to="/">JAY-WINN</NavLink></h1>
         </div>
 
         <div>
           <nav className="flex justify-end items-end mr-3 p-3 text-white text-clip font-serif max-sm:hidden">
-            <ul className=" flex gap-4 ">
+            <ul className="flex gap-4">
               <li>
-                <a
-                  href="http://"
-                  className="hover:text-sky-300 focus:text-amber-400 translate-x-8"
-                >
-                  Home
-                </a>
+                <NavLink to="/" className="hover:text-red-400">Home</NavLink>
               </li>
               <li>
-                <a
-                  href="http://"
-                  className="hover:text-sky-300 focus:text-amber-400"
-                >
-                  Services
-                </a>
+                <NavLink to="/services" className="hover:text-red-400">Services</NavLink>
               </li>
               <li>
-                <a
-                  href="http://"
-                  className="hover:text-sky-300 focus:text-amber-400"
-                >
-                  About-us
-                </a>
+                <NavLink to="/about-us" className="hover:text-red-400">About-us</NavLink>
               </li>
               <li>
-                <a
-                  href="http://"
-                  className="hover:text-sky-300 focus:text-amber-400 marquee"
-                >
-                  Portifolio
-                </a>
+                <NavLink to="/portifolio" className="hover:text-red-400">Portifolio</NavLink>
               </li>
               <li>
-                <a
-                  href="http://"
-                  className="hover:text-sky-300 focus:text-amber-400"
-                >
-                  Contact
-                </a>
-              </li>
-              <li>
-                <a
-                  href="http://"
-                  className="hover:text-sky-300 focus:text-amber-400"
-                >
-                  Skills
-                </a>
+                <NavLink to="/skills" className="hover:text-red-400">Skills</NavLink>
               </li>
             </ul>
           </nav>
         </div>
       </div>
-      <div className="md:hidden hidenn top-0 z-50 sticky">
+      <div className="top-0 max-sm:block pl-10  text-gray-300  hidden z-50 sticky">
         <div className="pl-2 flex justify-between items-center">
-          <span className="pb-3 text-gray-300">
-            <img
-              src={lgcover}
-              alt="Company-logo"
-              className="w-10 h-10 rounded-full"
-            />
-            EDGE_REACH TECH
-          </span>
-          <div className="text-gray-300">
-            <p className="pb-3 lowercase max-sm:hidden">
-              EXTEND YOUR BOUNDARIES AND CRAFT EXCELLENCE
-            </p>
-          </div>
-          <div>
-            <button className="text-2xl">
-              <FontAwesomeIcon icon={faBars} className="text-white" />
+          <h1>JAY-WINN</h1>
+          <div className="">
+            <button
+              className="text-2xl"
+              onClick={() => setMenu(!showMenu)}
+            >
+              <FontAwesomeIcon icon={faBars} className="text-white mr-4" />
             </button>
           </div>
         </div>
+        {showMenu && (
+          <nav className="max-sm:block bg-[#123] font-serif text-white">
+            <ul className="flex flex-col p-2">
+              <li>
+                <NavLink to="/" className="hover:text-red-400">Home</NavLink>
+              </li>
+              <li>
+                <NavLink to="/services" className="hover:text-red-400">Services</NavLink>
+              </li>
+              <li>
+                <NavLink to="/about-us" className="hover:text-red-400">About-us</NavLink>
+              </li>
+              <li>
+                <NavLink to="/portifolio" className="hover:text-red-400">Portfolio</NavLink>
+              </li>
+              <li>
+                <NavLink to="/skills" className="hover:text-red-400">Skills</NavLink>
+              </li>
+            </ul>
+          </nav>
+        )}
       </div>
     </div>
   );
 };
 
 export default NavBar;
+
