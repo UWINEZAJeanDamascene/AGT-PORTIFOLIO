@@ -3,7 +3,7 @@ const Skills = () => {
  
   return (
     <div>
-      <div  className="w-full h-auto flex items-center max-sm:flex-col widthh text-slate-50  bg-[#162b40]pb-14">
+      <div  className="w-full h-auto flex items-center max-sm:flex-col widthh text-slate-50  bg-[#0C252BDE] pb-14">
         <div className="w-1/2 max-sm:w-full pl-28 widthh max-sm:p-10 pt-16 pb-7 ">
           <h1 className="font-bold text-2xl  ">My Skills</h1>
           <p> Strong understanding of HTML, CSS, and modern JavaScript frameworks. Skilled in creating responsive and dynamic web pages and Proficient in using Git for version control. Experienced in collaborating with teams using platforms like GitHub and GitLab.</p>
@@ -19,9 +19,9 @@ const Skills = () => {
          <p>
          I am committed to continuous learning and staying updated with the latest industry trends and technologies. Whether it's taking online courses, attending workshops, or participating in tech communities, I always seek opportunities to expand my knowledge and skills.</p>
         </div>
-        <div className="p-10 w-1/2 max-sm:w-full max-sm:p-5   ">
+        <div className="p-10 w-1/2 max-sm:w-full max-sm:p-5">
         <p>HTML/CSS/TAILWIND</p>
-        <div className="relative w-96 max-sm:w-72  bg-[#555658] ">  
+        <div className="relative w-96 max-sm:w-72 bg-[#555658]">  
           <div className="absolute inset-0 " style={{ width: '80%', backgroundColor: 'rgba(255, 0, 0, 0.5)' }}></div>
           <p className="relative z-10">80%</p>
          </div>

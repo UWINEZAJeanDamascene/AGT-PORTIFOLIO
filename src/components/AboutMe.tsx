@@ -1,9 +1,9 @@
- import edge from '../images/edge.jpg'
+ import winnn from '../images/winnn.png'
 const AboutMe = () => {
   return (
     <div className='h-auto w-full align-baseline  '>
-      <div className="  w-full  flex justify-center max-sm:flex-col column items-center gap-4 h-auto overflow-hidden pb-4 bg-[#162b40]">
-        <div className='w-1/3 shadow-md p-4 mt-3  max-sm:w-full max-sm:pl-14 pb-4'>
+      <div className="  w-full  flex justify-center max-sm:flex-col column items-center gap-4 h-auto overflow-hidden pb-4 bg-[#0C252BDE]">
+        <div className='w-1/3 p-4 mt-3  max-sm:w-full max-sm:pl-14 pb-4'>
         <h1 className='text-[#c94cb4] text-xl p-2 font-serif '>About_Me</h1>
         <p className='text-white'>Am web developer</p>
         <h2 className='text-[#c94cb4] text-lg p-2 font-serif'>MISSION</h2>
@@ -13,8 +13,8 @@ const AboutMe = () => {
           <h4 className='text-[#c94cb4] text-lg p-2 font-serif'>VISION</h4>
           <p className='text-white'>To be recognized as a leader in web development, known for pushing the boundaries of what's possible online. We envision a future where every business, regardless of size, can access top-tier web technologies and create meaningful, impactful digital experiences for their users.</p>
         </div>
-        <div className='w-1/2 h-1/2 max-sm:w-full max-sm:pl-14 max-sm:pr-6 shadow '>
-          <img src={edge} alt="" className=' rounded-sm' />
+        <div className='w-1/2 h-1/2 max-sm:w-full max-sm:pl-14 max-sm:pr-6 '>
+          <img src={winnn} alt="" className=' rounded-sm' />
         </div>
       </div>
     </div>

@@ -10,7 +10,8 @@ import Skills from "./components/Skills";
 function App() {
   return (
   <>
- <div className="bg-[#162b40]">
+  
+ <div className="bg-[#0C252BDE]">
  <NavBar/>
  <Routes>
     <Route path="/" element={<Layout/>}>

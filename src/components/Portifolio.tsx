@@ -5,11 +5,11 @@ import learning from "../images/learning.png";
 import platform from "../images/platform.jpg";
 const Portifolio = () => {
   return (
-    <div className="bg-[#162b40]">
+    <div className="bg-[#0C252BDE]">
       <h1 className="pl-28 relative pt-5 uppercase text-xl text-slate-200"> Portifolio</h1>
       <p className="pl-28 pt-2 text-slate-200">RECENT WORK</p>
-      <div className=" flex gap-10 justify-center items-center  h-auto py-4 pb-4 column ">
-        <div className="w-80 max-sm:w-screen shadow-xl p-3 column rounded-md bg-[#123]">
+      <div className=" flex gap-10 justify-center items-center h-auto py-4 pb-4 column ">
+        <div className="w-80 max-sm:w-screen shadow-xl project p-3 column rounded-md ]">
           <img src={ecommerce} alt="ecommerce logo" />
           <h2 className="text-[#c94cb4]">E-commerce</h2>
           <h3 className="text-[#8f878e]">Key Features:</h3>
@@ -33,7 +33,7 @@ const Portifolio = () => {
     </div>
         </div>
 
-        <div className="w-80 shadow-xl p-3 rounded-md max-sm:w-screen column bg-[#123]">
+        <div className="w-80 shadow-xl p-3 rounded-md project max-sm:w-screen column ]">
           <img src={platform} alt="ecommerce logo" />
           <h2 className="text-[#c94cb4]">Social Media Platform</h2>
           <h3 className="text-[#8f878e]">Key Features:</h3>
@@ -57,7 +57,7 @@ const Portifolio = () => {
     </div>
         </div>
 
-        <div className="w-80 shadow-xl p-3 rounded-md max-sm:w-screen column bg-[#123]">
+        <div className="w-80 shadow-xl p-3 rounded-md project max-sm:w-screen column ">
           <img src={learning} alt="learning logo" />
           <h2 className="text-[#c94cb4]">Online Learning Platform</h2>
           <h3 className="text-[#8f878e]">Key Features:</h3>

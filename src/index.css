@@ -105,3 +105,43 @@
   position: relative; 
   opacity: 0;
 }
+@media screen and (min-width:300px) {
+  .animationn{
+   flex-direction: row;
+  }
+  
+}
+.mixcolor{
+  background: linear-gradient(blue, grey, purple);
+}
+.gradient-text {
+  font-weight: bold;
+  background-image: linear-gradient( #6b18aa, #c18137, #81974e);
+  background-clip: text;
+  color: transparent;
+}
+
+.custom-shape-divider-top-1722189344 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1722189344 svg {
+  position: relative;
+  display: block;
+  width: calc(117% + 1.3px);
+  height: 337px;
+}
+
+.custom-shape-divider-top-1722189344 .shape-fill {
+  fill: #0C252BDE;
+}
+.project:hover{
+  transform: scale3d(1.1, 1.1, 1.1);
+  transition: all 1s ease-out;
+}
