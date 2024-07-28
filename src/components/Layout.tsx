@@ -78,7 +78,7 @@ const Layout = () => {
             </button>
           </form>
           <div className="w-1/2">
-            <div className="text-slate-50 my-5">
+            <div className="text-slate-50 my-5  ">
               <h1 className="text-slate-50 text-xl my-3">Follow&Contact Me</h1>
               <p>Email:jayfcode@gmail.com</p>
               <p>Phone:0788987000</p>
